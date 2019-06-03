@@ -16,6 +16,14 @@ body {
 h1 {margin: 0px 0px 0px 0px}
 
 a {
+	font-family: "John";
+	font-size: 45px;
+	color:#6c502a;
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+
+a-hover {
 	text-decoration: none;
 	color:#6c502a;}
 
