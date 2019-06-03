@@ -23,9 +23,12 @@ img {
 }
 
 @media screen and (max-width: 730px) {
-body {	
-	width:65%;
-	margin: 90px auto auto auto;
+
+body {width:65%;
+	margin: 90px auto auto auto;}
+
+h1 {	
+	
 	font-size: 30px;
 	line-height: 35px;
 }
