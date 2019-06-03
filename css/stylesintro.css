@@ -21,3 +21,14 @@ img {
   margin-right: auto;
   width: 100%;
 }
+
+@media screen and (max-width: 730px) {
+body {	
+	width:70%;
+	margin: 100px auto auto auto;
+	font-family: "John";
+	font-size: 30px;
+	line-height: 35px;
+	color:#a87d41;
+	text-align: center;}
+}
