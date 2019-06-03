@@ -15,7 +15,9 @@ body {
 
 h1 {margin: 0px 0px 0px 0px}
 
-a {text-decoration: none;}
+a {
+	text-decoration: none;
+	color:#6c502a;}
 
 img {
   display: block;
