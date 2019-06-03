@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Objets</title>
+	<meta charset=“UTF-8”>
+	<link rel="stylesheet" href="css/stylesdocuments.css">
+</head>
+
+
+<body>
+<div class="header" id="myHeader">
+  <p><a href="texte.html">Texte<a/> – <a href="map.html">Documents</a><p/>
+</div>
+
+<div class="column">
+
+	<H1>Objets</H1>
+	<ol>
+		
+		<li>Miniature de temple, Ta’ Hagrat, 
+3600-2500 Av. JC. </li>
+
+<li>Figure humaine, 
+probablement un·e pretre·sse, 3600-2500 Av. JC. </li>
+
+<li>Possible rose des vents, 3600-2500 Av. JC.</li>
+
+<li>Venus de Malte, Hagar Qim, 
+3600-2500 Av. JC.</li>
+
+<li>Figure dormante, Hypogeum, 5000 Av. JC.</li>
+
+<li>Grande statue, Tarxien, 3600-2500 Av. JC.</li>
+	</ol>
+</div>
+
+
+<div class="columnimg">
+
+	<img src="image/objets.jpg">	
+
+</div>
+
+
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+
+</html>

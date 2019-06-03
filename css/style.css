@@ -1,0 +1,174 @@
+
+@font-face {
+	font-family: "John";
+	src: url('../font/NJFont.ttf');
+}
+
+body {
+	font-family: "John";
+	font-size: 23px;
+	line-height: 30px;
+	color:#a87d41;
+	margin-bottom: 150px;
+}
+
+a {
+	font-family: "John";
+	font-size: 25px;
+	color:#6c502a;
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+
+p {	
+	width:50%;
+	margin: 10px auto 10px auto;}
+
+h1  {
+	font-size: 70px;
+	line-height: 60px;
+	width:50%;
+	margin: 80px auto 15px auto;}
+
+h2  {
+	font-size:40px;
+	line-height: 45px;
+	width:50%;
+	margin: 90px auto 0px auto;}
+
+h3  {
+	font-size: 23px;
+	line-height: 30px;
+	color:#7a5a2f;
+	width:50%;
+	margin: 40px auto 0px auto;}
+
+sup {
+
+}
+
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.container {
+	position: relative;
+ 	text-align: left;
+  	width:50%;
+	margin: 20px auto 40px auto;}
+
+.bottom-left {
+  position: absolute;
+  bottom: 25px;
+  left: 65px;
+}
+
+.header {
+	width:100%;
+	margin: 0px 0px 0px 0px;
+  	padding: 0px 0px;
+ 	 background: #ffffff;
+ 	 color: #000000;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+  
+  .container {
+	position: relative;
+ 	text-align: left;
+  	width:65%;
+	margin: 10px auto 10px auto;}
+
+  .bottom-left {
+  bottom: 0px;
+  left: 0px;
+	}
+
+	body {
+	font-size: 20px;
+	line-height: 24px; 
+	}
+
+	p {	
+	width:50%;
+	margin: 10px auto 10px auto;}
+
+	h1  {
+	font-size: 60px;
+	line-height: 54px;
+	width:50%;
+	margin: 80px auto 15px auto;}
+
+	h2  {
+	font-size:40px;
+	line-height: 45px;
+	width:50%;
+	margin: 90px auto 0px auto;}
+
+	h3  {
+	font-size: 24px;
+	line-height: 30px;
+	color:#7a5a2f;
+	width:50%;
+	margin: 40px auto 0px auto;}
+}
+
+
+@media screen and (max-width: 800px) {
+  
+  .container {
+	position: relative;
+ 	text-align: left;
+  	width:85%;
+	margin: 20px auto 40px auto;}
+
+  .bottom-left {
+  bottom: 0px;
+  left: 0px;}
+
+
+	body {
+	font-size: 15px;
+	line-height: 20px; 
+	}
+
+
+	p {	text-align: justify;
+	width:75%;
+	margin: 10px auto 10px auto;}
+
+	h1  {
+	font-size: 50px;
+	line-height: 54px;
+	width:75%;
+	margin: 80px auto 15px auto;}
+
+	h2  {
+	font-size:30px;
+	line-height: 35px;
+	width:75%;
+	margin: 90px auto 0px auto;}
+
+	h3  {
+	font-size: 23px;
+	line-height: 30px;
+	color:#7a5a2f;
+	width:75%;
+	margin: 40px auto 0px auto;}
+}
+
+
+
+

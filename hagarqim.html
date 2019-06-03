@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Hagar Qim</title>
+	<meta charset=“UTF-8”>
+	<link rel="stylesheet" href="css/stylesdocuments.css">
+</head>
+
+
+<body>
+
+<div class="header" id="myHeader">
+  <p><a href="texte.html">Texte<a/> – <a href="map.html">Documents</a><p/>
+</div>
+
+
+<div class="column">
+
+	<h1>Hagar Qim</h1>
+
+	<img src="image/maphagarqim.png">
+
+	<p>
+	Surplombant la mer en haut d’une falaise, le site de Haga-qim connu depuis le xviie siecle et fouillé en 1839. Plusieurs aménagement et construction s’enchaines entre 3 800 av. J.C. et 2 500 av. J.C. ( on dénote quatre temple au total ). 
+	<p/>
+
+</div>
+
+
+<div class="columnimg">
+
+	<img src="image/hagarqim1.jpg">	
+	<img src="image/hagarqim2.jpg">	
+	<img src="image/hagarqim3.jpg">	
+	<img src="image/hagarqim4.jpg">	
+	<img src="image/hagarqim5.jpg">	
+	<img src="image/hagarqim6.jpg">	
+	<img src="image/hagarqim7.jpg">	
+	<img src="image/hagarqim8.jpg">	
+	<img src="image/hagarqim9.jpg">	
+	<img src="image/hagarqim10.jpg">	
+
+</div>
+
+
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+
+</html>

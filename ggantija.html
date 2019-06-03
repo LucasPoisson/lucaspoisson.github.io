@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Ggantija</title>
+	<meta charset=“UTF-8”>
+	<link rel="stylesheet" href="css/stylesdocuments.css">
+</head>
+
+
+<body>
+<div class="header" id="myHeader">
+  <p><a href="texte.html">Texte<a/> – <a href="map.html">Documents</a><p/>
+</div>
+
+
+<div class="column">
+
+	<h1>Ggantija</h1>
+
+	<img src="image/mapggantija.png">
+
+	<p>
+		Le site ggantija, « tour de géant » en Maltais, est situé sur l’île de Gozo. C’est une site connu depuis longtemps (deja au xviie siecle) qui remonte à plus de 5000 av. J.C. pour les premieres constructions. C’est un des édifice mégalithique le plus vieux connu à ce jour. Les pierres les plus grandes qui le constituent font pres de cinquante tones pour presque six metres de hauteure.
+	<p/>
+</div>
+
+
+
+<div class="columnimg">
+
+	<img src="image/ggantija1.jpg">	
+	<img src="image/ggantija2.jpg">
+	<img src="image/ggantija3.jpg">
+	<img src="image/ggantija4.jpg">
+
+
+</div>
+
+
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+
+</html>

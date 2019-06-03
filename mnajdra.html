@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Mnajdra</title>
+	<meta charset=“UTF-8”>
+	<link rel="stylesheet" href="css/stylesdocuments.css">
+</head>
+
+
+<body>
+<div class="header" id="myHeader">
+  <p><a href="texte.html">Texte<a/> – <a href="map.html">Documents</a><p/>
+</div>
+
+
+<div class="column">
+
+	<h1>Mnajdra</h1>
+
+	<img src="image/mapmnajdra.png">
+
+	<p>
+		Mnajdra est éloigné de quelques cetaines de metres de Hagar-Qim dont la construction remonte au VIe millenaire av. J.C. . L’excavation du site debute en 1840, un an après la découverte du site voisin de Hagar-Qim. Il s’avère être construit en calcaire coralien, un  materiau different de celui utilisé à Hagar-Qim. La grande particuliarité ets qu’il est aligné sur les solstices/equinoxes. 
+	<p/>
+</div>
+
+
+
+<div class="columnimg">
+
+	<img src="image/mnajdra1.jpg">	
+	<img src="image/mnajdra2.jpg">	
+	<img src="image/mnajdra3.jpg">	
+	<img src="image/mnajdra4.jpg">	
+	
+
+
+</div>
+
+
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+@font-face {
+	font-family: "John";
+	src: url('../font/NJFont.ttf');
+}
+
+body {
+	width:50%;
+	margin: 150px auto auto auto;
+	font-family: "John";
+	font-size: 45px;
+	line-height: 85px;
+	color:#a87d41;
+	text-align: center;
+}
+
+h1 {margin: 0px 0px 0px 0px}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
