@@ -24,11 +24,9 @@ img {
 
 @media screen and (max-width: 730px) {
 body {	
-	width:70%;
-	margin: 100px auto auto auto;
-	font-family: "John";
+	width:65%;
+	margin: 90px auto auto auto;
 	font-size: 30px;
 	line-height: 35px;
-	color:#a87d41;
-	text-align: center;}
+}
 }
