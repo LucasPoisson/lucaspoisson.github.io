@@ -56,12 +56,6 @@ img {
 }
 
 
-.aheader {font-family: "John";
-	font-size: 26px;
-	color:#6c502a;
-	text-decoration: none;
-}
-
 .container {
 	position: relative;
  	text-align: left;
@@ -106,6 +100,14 @@ img {
 	font-size: 20px;
 	line-height: 24px; 
 	}
+
+	a{ 
+	font-size: 20px;
+	line-height: 24px;  
+	color:#6c502a;
+	text-decoration: none
+	 }
+
 
 	p {	
 	width:50%;
@@ -154,6 +156,13 @@ img {
 	p {	text-align: justify;
 	width:75%;
 	margin: 10px auto 10px auto;}
+
+	a{ 
+	font-size: 15px;
+	line-height: 20px;  
+	color:#6c502a;
+	text-decoration: none
+	 }
 
 	h1  {
 	font-size: 50px;
