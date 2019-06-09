@@ -14,7 +14,7 @@ body {
 
 a {
 	font-family: "John";
-	font-size: 23px;
+	font-size: 25px;
 	color:#6c502a;
 	text-decoration: none;
 }
@@ -56,11 +56,10 @@ img {
 }
 
 
-.aheader {font-family: "John";
-	font-size: 25px;
+.atext {font-family: "John";
+	font-size: 23px;
 	color:#6c502a;
 	text-decoration: none;
-	margin-bottom: 10px;
 }
 
 .container {
